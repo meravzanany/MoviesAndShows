@@ -1,4 +1,4 @@
-package com.mzapps.moviesandshows
+package com.mzapps.movies
 
 import org.junit.Test
 

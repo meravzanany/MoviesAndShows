@@ -1,4 +1,4 @@
-package com.example.moviesandshows.ui.theme
+package com.mzapps.ui
 
 import androidx.compose.ui.graphics.Color
 

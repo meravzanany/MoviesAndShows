@@ -13,11 +13,16 @@ pluginManagement {
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
+    this.repositories {
         google()
         mavenCentral()
     }
 }
 
 rootProject.name = "MoviesAndShows"
+
 include(":app")
+include(":core:data")
+include(":feature:main")
+include(":feature:movies")
+include(":core:ui")
