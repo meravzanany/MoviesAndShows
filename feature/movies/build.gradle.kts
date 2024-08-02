@@ -20,11 +20,14 @@ android {
 
 dependencies {
 
-    implementation(project(":core:data"))
+    implementation(project(":core:model"))
     implementation(project(":core:ui"))
-    implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.7")
+    implementation(libs.kotlinx.collections.immutable)
+
+    implementation(libs.coil.compose.v260)
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    debugImplementation(libs.ui.tooling)
 }
